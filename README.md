@@ -2,6 +2,7 @@ A practical example of using the Snowflake platform to tackle many data analysis
 Dataset:  https://ride.citibikenyc.com/system-data
 
 Procedure:
+
 1- Copy the dataset files ( *-citibike-tripdata.csv ) into data/input
 
 2- Execute the main program
