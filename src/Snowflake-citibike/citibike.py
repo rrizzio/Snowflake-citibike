@@ -5,9 +5,9 @@ from citibike_stream_task_dq import *
 from citibike_transformations import *
 
 # Parameters
-accountname = "rchuhqe-zr45872"
-username = "rrizzio"  
-password = "P@ssword2022"
+accountname = "abcd"
+username = "abcd"  
+password = "abcd"
 rolename = "ACCOUNTADMIN"
 stagename= "my_stage"
 filepath = "data/input/"
