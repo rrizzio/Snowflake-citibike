@@ -3,18 +3,20 @@ Dataset:  https://ride.citibikenyc.com/system-data
 
 Procedure:
 
-1- Copy the dataset files ( *-citibike-tripdata.csv ) into data/input
+1- Copy the dataset files ( 2022*-citibike-tripdata.csv ) into data/input
 
-2- Execute the main program
-src/my_panel_package/citibike.py
+2- Insert your Snowflake credentials in the file src/Snowflake-citibike/citibike.py
 
-3- At the operation prompt, first choose "create" to build all the artifacts
+3- Execute the main program
+src/Snowflake-citibike/citibike.py
+
+4- At the operation prompt, first choose "create" to build all the artifacts
 Operation [create | load | end]: create
 
-4- At the operation prompt, then choose "load" to process all files in data/input
+5- At the operation prompt, then choose "load" to process all files in data/input
 Operation [create | load | end]: load
 
-5- The processed files are moved into data/processed
+6- The processed files are moved into data/processed
 
-6- End the main program
+7- End the main program
 Operation [create | load | end]: end
